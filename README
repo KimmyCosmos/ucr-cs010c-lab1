@@ -1,1 +1,19 @@
-CS010C Lab 1 Playlist Project
+# CS010C - Lab 1 
+
+## Files Included
+- `main.cpp` – Contains the main program and menu logic
+- `Playlist.h` – Header file for the `PlaylistNode` class
+- `Playlist.cpp` – Class implementation
+
+## Features
+- Add song to end of playlist
+- Remove song by unique ID
+- Move song to new position
+- Output songs by specific artist
+- Output total playlist time
+- Display full playlist
+- Clean memory handling
+
+## To Compile
+```bash
+g++ main.cpp Playlist.cpp -std=c++14 -Wall -o playlist
